@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script>
+
       function checkSorted(arr) {
         let ascending = true;
         let descending = true;
@@ -34,6 +26,3 @@
       document.write("For array2: " + checkSorted(array2)); 
       document.write("<br>");
       document.write("For array3: " + checkSorted(array3)); 
-    </script>
-  </body>
-</html>
